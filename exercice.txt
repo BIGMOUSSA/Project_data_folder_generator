@@ -1,0 +1,37 @@
+Écrire un programme Python qui:
+- Génère l'arborescence d'un projet d'analyse de données
+- Cette arborescence ressemble à peu près à ceci (ébauche):
+
+├── data               # repertoire contenant les données
+│   ├── cleaned        # données nettoyées
+│   └── raw            # données brutes
+├── docs               # repertoire contenant toute forme de documentation
+├── LICENSE 
+├── Makefile
+├── models             # contient tous les modèles construits
+├── notebooks          # contient tous les notebooks écrits
+│   └── main_notebook.ipynb
+├── README.md
+├── reports            # contient tous les rapports générés
+├── requirements.txt
+└── src                # contient tous les scripts Python écrits
+    └── utils.py
+
+Le programme devra également:
+- Éditer certains fichier à l'intérieur de l'arbo en l'occurence
+  - le fichier notebooks/main_notebook.ipynb
+  - le fichier src/utils.py      
+  - initialiser le dépot
+  - ajouter tous les fichier de l'arbo
+  - faire un commit
+
+Vous utiliserez, toutes les notions vues en classe pour organiser votre code:
+- modules, variables, classes, fonctions
+
+Vous proposerez 3 manières d'y arriver:
+- indice: il s'agit d'utiliser des bibliothèques différentes (que vous chercherez)
+- chaque manière d'y arriver devra être définie dans une branche distincte
+
+
+Vous rendrez un lien vers le dépôt Github qui contient votre programme:
+
